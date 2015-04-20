@@ -14,6 +14,7 @@
 		0A470CA91AE4F75800FE3BE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A470CA81AE4F75800FE3BE7 /* Images.xcassets */; };
 		0A470CAC1AE4F75800FE3BE7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A470CAA1AE4F75800FE3BE7 /* LaunchScreen.xib */; };
 		0A470CB81AE4F75800FE3BE7 /* mmoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A470CB71AE4F75800FE3BE7 /* mmoTests.m */; };
+		0ACB02CF1AE52126007FD929 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB02CE1AE52126007FD929 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A036D8E1AE54A82006EA72D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Classes/Constants.h; sourceTree = "<group>"; };
 		0A470C981AE4F75800FE3BE7 /* mmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A470C9C1AE4F75800FE3BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A470C9D1AE4F75800FE3BE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		0A470CB11AE4F75800FE3BE7 /* mmoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mmoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A470CB61AE4F75800FE3BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A470CB71AE4F75800FE3BE7 /* mmoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mmoTests.m; sourceTree = "<group>"; };
+		0ACB02CE1AE52126007FD929 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Resources/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		0A470C9A1AE4F75800FE3BE7 /* mmo */ = {
 			isa = PBXGroup;
 			children = (
+				0ACB02CD1AE520FD007FD929 /* Resources */,
+				0A470CC11AE4F92700FE3BE7 /* Classes */,
 				0A470C9F1AE4F75800FE3BE7 /* AppDelegate.h */,
 				0A470CA01AE4F75800FE3BE7 /* AppDelegate.m */,
 				0A470CA21AE4F75800FE3BE7 /* ViewController.h */,
@@ -117,6 +122,22 @@
 				0A470CB61AE4F75800FE3BE7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A470CC11AE4F92700FE3BE7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A036D8E1AE54A82006EA72D /* Constants.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0ACB02CD1AE520FD007FD929 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0ACB02CE1AE52126007FD929 /* Localizable.strings */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A470CA71AE4F75800FE3BE7 /* Main.storyboard in Resources */,
+				0ACB02CF1AE52126007FD929 /* Localizable.strings in Resources */,
 				0A470CAC1AE4F75800FE3BE7 /* LaunchScreen.xib in Resources */,
 				0A470CA91AE4F75800FE3BE7 /* Images.xcassets in Resources */,
 			);
@@ -299,7 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -349,7 +371,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = mmo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,7 +383,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = mmo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +444,7 @@
 				0A470CBD1AE4F75800FE3BE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A470CBE1AE4F75800FE3BE7 /* Build configuration list for PBXNativeTarget "mmoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +453,7 @@
 				0A470CC01AE4F75800FE3BE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
