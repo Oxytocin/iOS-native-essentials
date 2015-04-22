@@ -1,0 +1,3 @@
+[submodule "PushPurchase/mmo/mmo/Classes/ext-utils"]
+	path = PushPurchase/mmo/mmo/Classes/ext-utils
+	url = https://github.com/Oxytocin/obj-c-utils.git
