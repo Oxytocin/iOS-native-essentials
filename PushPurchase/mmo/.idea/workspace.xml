@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34c524b7-7d27-4d05-b2d9-2dd368facfe1" name="Default" comment="" />
+    <list default="true" id="34c524b7-7d27-4d05-b2d9-2dd368facfe1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mmo/Classes/DataStorage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mmo/Classes/DataStorage.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mmo/Classes/MainViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mmo/Classes/MainViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mmo/Classes/OpenUDID/OpenUDID.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mmo/Classes/OpenUDID/OpenUDID.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mmo/Classes/OpenUDIDViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mmo/Classes/OpenUDIDViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmo/AppDelegate.m" afterPath="$PROJECT_DIR$/mmo/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmo/Classes/Constants.h" afterPath="$PROJECT_DIR$/mmo/Classes/Constants.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmo/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/mmo/Base.lproj/Main.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmo/ViewController.m" afterPath="$PROJECT_DIR$/mmo/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/mmo.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="mmo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,19 +33,44 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_912e7041ea12daee8f130f1839f8a451c4596d3b" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_iPhone_Retina__3_5_inch__8.3" />
   <component name="FavoritesManager">
     <favorites_list name="mmo" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppDelegate.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AppDelegate.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mmo/AppDelegate.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="502" selection-end="502" vertical-scroll-proportion="0.2924282" vertical-offset="218" max-vertical-offset="1380">
-              <folding>
-                <element signature="e#141#164#0" expanded="true" />
-              </folding>
+            <state line="37" column="47" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataStorage.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mmo/Classes/DataStorage.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="211" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataStorage.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mmo/Classes/DataStorage.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="19" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpenUDIDViewController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mmo/Classes/OpenUDIDViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="4" selection-start="343" selection-end="343" vertical-scroll-proportion="0.4377432" vertical-offset="0" max-vertical-offset="514">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,11 +78,8 @@
       <file leaf-file-name="ViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mmo/ViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="61" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="735">
-              <folding>
-                <marker date="1429549434000" expanded="true" signature="260:1325" placeholder="..." />
-                <marker date="1429549434000" expanded="true" signature="282:421" placeholder="{...}" />
-              </folding>
+            <state line="19" column="24" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1110">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,11 +91,21 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mmo/ViewController.m" />
         <option value="$PROJECT_DIR$/mmo/AppDelegate.m" />
+        <option value="$PROJECT_DIR$/mmo/Classes/DataStorage.h" />
+        <option value="$PROJECT_DIR$/mmo/Classes/DataStorage.m" />
+        <option value="$PROJECT_DIR$/mmo/ViewController.m" />
       </list>
     </option>
   </component>
@@ -67,7 +115,7 @@
     <option name="width" value="1415" />
     <option name="height" value="877" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -93,6 +141,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -137,14 +186,35 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.mmo">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="mmo" TARGET_NAME="mmo" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="mmo" RUN_TARGET_NAME="mmo" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -186,6 +256,23 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="34c524b7-7d27-4d05-b2d9-2dd368facfe1" name="Default" comment="" />
@@ -196,16 +283,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="1415" height="877" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.49964663" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32920793" sideWeight="0.49964663" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18233216" sideWeight="0.50866336" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49133664" sideWeight="0.69328624" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18233216" sideWeight="0.6707921" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49133664" sideWeight="0.69328624" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49133664" sideWeight="0.3067138" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32920793" sideWeight="0.50035334" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -227,45 +314,105 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/mmo/Classes/OpenUDIDViewController.m</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mmo/AppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="47" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmo/Classes/DataStorage.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="211" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmo/Classes/DataStorage.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="19" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmo/ViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="24" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmo/ViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="61" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmo/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmo/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="47" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.0" vertical-offset="847" max-vertical-offset="1395">
-          <folding>
-            <element signature="e#141#164#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mmo/ViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="615">
-          <folding>
-            <marker date="1429549434000" expanded="true" signature="260:1325" placeholder="..." />
-            <marker date="1429549434000" expanded="true" signature="282:421" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mmo/ViewController.m">
+    <entry file="file://$PROJECT_DIR$/mmo/Classes/DataStorage.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="61" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="735">
-          <folding>
-            <marker date="1429549434000" expanded="true" signature="260:1325" placeholder="..." />
-            <marker date="1429549434000" expanded="true" signature="282:421" placeholder="{...}" />
-          </folding>
+        <state line="14" column="0" selection-start="211" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmo/Classes/DataStorage.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="19" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mmo/AppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="502" selection-end="502" vertical-scroll-proportion="0.2924282" vertical-offset="218" max-vertical-offset="1380">
-          <folding>
-            <element signature="e#141#164#0" expanded="true" />
-          </folding>
+        <state line="37" column="47" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmo/ViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="24" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmo/Classes/OpenUDIDViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="4" selection-start="343" selection-end="343" vertical-scroll-proportion="0.4377432" vertical-offset="0" max-vertical-offset="514">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Constants.h"
+#import "DataStorage.h"
 
 @interface ViewController ()
 
@@ -23,10 +24,23 @@
     self.apnsTextView.layer.borderWidth = 0.5;
     self.apnsTextView.layer.borderColor = borderColor.CGColor;
     self.apnsTextView.layer.cornerRadius = 5.0;
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(didRecieveNotification:)
-                                                 name:NT_APNS_OBTAINED
-                                               object:nil];
+    
+    // Set text view to the top
+    [self.apnsTextView setContentOffset:CGPointZero animated:YES];
+    
+    NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+    
+    [notificationCenter addObserver:self
+                           selector:@selector(didRecieveNotification:)
+                               name:NT_APNS_OBTAINED
+                             object:nil];
+    
+    [notificationCenter addObserver:self
+                           selector:@selector(didRecieveNotification:)
+                               name:NT_APNS_FAILED
+                             object:nil];
+
+    [[DataStorage sharedInstance] test];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,10 +49,20 @@
 }
 
 - (void) didRecieveNotification:(NSNotification *)notification {
-    NSDictionary *userInfo = notification.userInfo;
-    NSString *apnsToken = [userInfo objectForKey:KEY_APNS_TOKEN];
-    NSLog(@"Did receive notification. Token: %@", apnsToken);
-    [self.apnsTextView setText:apnsToken];
+    NSString *ntName = notification.name;
+    if ([ntName isEqualToString:NT_APNS_OBTAINED])
+    {
+        NSDictionary *userInfo = notification.userInfo;
+        NSString *apnsToken = [userInfo objectForKey:KEY_APNS_TOKEN];
+        NSLog(@"Did receive notification. Token: %@", apnsToken);
+        [self.apnsTextView setText:apnsToken];
+    }
+    else if ([ntName isEqualToString:NT_APNS_FAILED])
+    {
+        NSDictionary *userInfo = notification.userInfo;
+        NSError *error = [userInfo objectForKey:KEY_ERROR];
+        [self.apnsTextView setText:@""];
+    }
 }
 
 @end

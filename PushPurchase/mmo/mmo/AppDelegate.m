@@ -59,7 +59,6 @@
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     NSLog(@"Registered for remote notifications");
-    //NSString *strToken = [self stringWithDeviceToken:deviceToken];
     NSString *strToken = [NSString stringWithFormat:@"%@", deviceToken];
     NSDictionary *userInfo = [NSDictionary dictionaryWithObject:strToken forKey:KEY_APNS_TOKEN];
     [[NSNotificationCenter defaultCenter] postNotificationName:NT_APNS_OBTAINED
@@ -71,6 +70,10 @@
 
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
     NSLog(@"Errorin registration. Error: %@", error);
+    NSDictionary *userInfo = [NSDictionary dictionaryWithObject:error forKey:KEY_ERROR];
+    [[NSNotificationCenter defaultCenter] postNotificationName:NT_APNS_FAILED
+                                                        object:nil
+                                                      userInfo:userInfo];
 }
 
 - (NSString *)stringWithDeviceToken:(NSData *)deviceToken {

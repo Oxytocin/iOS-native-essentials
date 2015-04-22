@@ -14,7 +14,11 @@
 		0A470CA91AE4F75800FE3BE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A470CA81AE4F75800FE3BE7 /* Images.xcassets */; };
 		0A470CAC1AE4F75800FE3BE7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A470CAA1AE4F75800FE3BE7 /* LaunchScreen.xib */; };
 		0A470CB81AE4F75800FE3BE7 /* mmoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A470CB71AE4F75800FE3BE7 /* mmoTests.m */; };
+		0A5D71791AE699F400A08D9D /* DataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D71781AE699F400A08D9D /* DataStorage.m */; };
+		0A5D717C1AE6AE4A00A08D9D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D717B1AE6AE4A00A08D9D /* MainViewController.m */; };
 		0ACB02CF1AE52126007FD929 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB02CE1AE52126007FD929 /* Localizable.strings */; };
+		0AD6BCC61AE7A77E00EBEDBE /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6BCC51AE7A77E00EBEDBE /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0AD6BCC91AE7AAC600EBEDBE /* OpenUDIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6BCC81AE7AAC600EBEDBE /* OpenUDIDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +46,15 @@
 		0A470CB11AE4F75800FE3BE7 /* mmoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mmoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A470CB61AE4F75800FE3BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A470CB71AE4F75800FE3BE7 /* mmoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mmoTests.m; sourceTree = "<group>"; };
+		0A5D71771AE699F400A08D9D /* DataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataStorage.h; path = Classes/DataStorage.h; sourceTree = "<group>"; };
+		0A5D71781AE699F400A08D9D /* DataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataStorage.m; path = Classes/DataStorage.m; sourceTree = "<group>"; };
+		0A5D717A1AE6AE4A00A08D9D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		0A5D717B1AE6AE4A00A08D9D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		0ACB02CE1AE52126007FD929 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Resources/Localizable.strings; sourceTree = "<group>"; };
+		0AD6BCC41AE7A77E00EBEDBE /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		0AD6BCC51AE7A77E00EBEDBE /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		0AD6BCC71AE7AAC600EBEDBE /* OpenUDIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenUDIDViewController.h; path = Classes/OpenUDIDViewController.h; sourceTree = "<group>"; };
+		0AD6BCC81AE7AAC600EBEDBE /* OpenUDIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenUDIDViewController.m; path = Classes/OpenUDIDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +139,14 @@
 		0A470CC11AE4F92700FE3BE7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0AD6BCC31AE7A77E00EBEDBE /* OpenUDID */,
 				0A036D8E1AE54A82006EA72D /* Constants.h */,
+				0A5D71771AE699F400A08D9D /* DataStorage.h */,
+				0A5D71781AE699F400A08D9D /* DataStorage.m */,
+				0A5D717A1AE6AE4A00A08D9D /* MainViewController.h */,
+				0A5D717B1AE6AE4A00A08D9D /* MainViewController.m */,
+				0AD6BCC71AE7AAC600EBEDBE /* OpenUDIDViewController.h */,
+				0AD6BCC81AE7AAC600EBEDBE /* OpenUDIDViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -138,6 +157,16 @@
 				0ACB02CE1AE52126007FD929 /* Localizable.strings */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		0AD6BCC31AE7A77E00EBEDBE /* OpenUDID */ = {
+			isa = PBXGroup;
+			children = (
+				0AD6BCC41AE7A77E00EBEDBE /* OpenUDID.h */,
+				0AD6BCC51AE7A77E00EBEDBE /* OpenUDID.m */,
+			);
+			name = OpenUDID;
+			path = Classes/OpenUDID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A470CA41AE4F75800FE3BE7 /* ViewController.m in Sources */,
+				0AD6BCC91AE7AAC600EBEDBE /* OpenUDIDViewController.m in Sources */,
 				0A470CA11AE4F75800FE3BE7 /* AppDelegate.m in Sources */,
 				0A470C9E1AE4F75800FE3BE7 /* main.m in Sources */,
+				0AD6BCC61AE7A77E00EBEDBE /* OpenUDID.m in Sources */,
+				0A5D717C1AE6AE4A00A08D9D /* MainViewController.m in Sources */,
+				0A5D71791AE699F400A08D9D /* DataStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
